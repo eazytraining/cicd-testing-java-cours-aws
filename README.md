@@ -26,6 +26,6 @@ Pareil, vous pouez lancer les tests graphiquement dans vscode, ou alors utiliser
     mvn test
 ```
     
-Ensuite, déplacez vous sur la branche **m1ch1_OK**, puis lancez tous les tests et comparez les temps d'exécution. 
+Ensuite, déplacez vous sur la branche **m1ch1**, puis lancez tous les tests et comparez les temps d'exécution. 
 
-!!! -- Sur la branche m1ch1_OK, vous devrez voir apparaitre des tests End to End (E2E).
+!!! -- Sur la branche m1ch1, vous devrez voir apparaitre des tests End to End (E2E).
