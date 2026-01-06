@@ -207,13 +207,13 @@ Si ce n’est pas le cas, voici l’installation manuelle (recommandée) :
 
 ✅ Attendu : Java 11 minimum et Maven 3.9.x.
 
-    ![open_env_var.png](images/open_env_var.png)    
-    ![setting_env_var.png](images/setting_env_var.png)    
-    ![setting_env_var_2.png](images/setting_env_var_2.png)
-
-
-
-
 ## Configuration de Docker
 - Créer un compte sur Docker Hub :  https://hub.docker.com/ si vous n'en avez pas un
 - Installez docker sur votre VM
+
+### Démarrage du serveur sonar conteneurisé :
+Tapez la commande suivante sur la VM aws: 
+
+```
+docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:lts
+```
